@@ -26,7 +26,6 @@ header {
     rotate: 65deg;
     opacity: 2.5;
     z-index: -1;
-    
 }
 
 .header-main {
@@ -76,6 +75,11 @@ header {
     text-align: center;
 }
 
+.education {
+    position: relative;
+    width: 100%;
+}
+
 .educ h1 {
     margin-top: 5.5rem;
     color: white;
@@ -89,7 +93,7 @@ header {
     background: white;
     box-shadow: 0 2px 1px 3px #ffffffb2;
     border-radius: 1rem;
-    height: 100rem;
+    height: 98rem;
     margin: 9rem 59rem;
     position: relative;
 }
@@ -102,7 +106,7 @@ header {
     background-color: white;
     box-shadow: 0 1px 3.5px 1.5px white;
     position: absolute;
-    top: 22.5rem;
+    top: 11.5rem;
     right: -0.7rem
 }
 
@@ -114,7 +118,7 @@ header {
     background-color: white;
     box-shadow: 0 1px 3.5px 1.5px white;
     position: absolute;
-    top: 45rem;
+    top: 35rem;
     right: -0.7rem
 }
 
@@ -127,7 +131,7 @@ header {
     background-color: white;
     box-shadow: 0 1px 3.5px 1.5px white;
     position: absolute;
-    top: 67.5rem;
+    top: 60rem;
     right: -0.7rem
 }
 
@@ -139,6 +143,79 @@ header {
     background-color: white;
     box-shadow: 0 1px 3.5px 1.5px white;
     position: absolute;
-    top: 100rem;
+    top: 84.5rem;
     right: -0.7rem
 }
+
+.primary {
+    position: absolute;
+    top: 18.5rem;
+    left: 27rem;
+    width: 30rem;
+    height: 15rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+.secondaryJ {
+    position: absolute;
+    top: 41.8rem;
+    right: 27.5rem;
+    width: 30rem;
+    height: 15rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+.secondaryS {
+    position: absolute;
+    top: 67rem;
+    left: 27rem;
+    width: 30rem;
+    height: 15rem;
+    background: white;
+    border-radius: 1rem;
+}
+.tertiary {
+    position: absolute;
+    top: 91rem;
+    right: 27.5rem;
+    width: 30rem;
+    height: 15rem;
+    background: white;
+    border-radius: 1rem;
+
+}
+
+.primary h1, .tertiary h1 {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.secondaryJ h1, .secondaryS h1 {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.7rem;
+}
+
+.primary h3, .tertiary h3, .secondaryJ h3, .secondaryS h3 {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.primary h5, .tertiary h5, .secondaryJ h5, .secondaryS h5 {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.primary p, .tertiary p, .secondaryJ p, .secondaryS p {
+    text-align: center;
+    padding: 0.5rem 2rem;
+}
+
+
