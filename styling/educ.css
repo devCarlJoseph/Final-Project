@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #03071f;
+}
+
+header {
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5.5rem;
+    margin-top: 2rem;
+    height: 6.5rem;
+    border-radius: 3rem;
+}
+
+.side-image {
+    position: absolute;
+    top: 28rem;
+    right: 50rem;
+    rotate: 65deg;
+    opacity: 2.5;
+    z-index: -1;
+    
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hLogo {
+    display: flex;
+}
+
+.hLogo img {
+    width: 5rem;
+    margin-top: 0.7rem;
+    margin-left: 1.5rem;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem
+}
+
+
+.logoText h3 {
+    font-size: 2rem;
+}
+
+.logoText h4 {
+    font-size: 1rem;
+}
+
+.lists {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 0.2rem;
+    margin-right: 8rem;
+}
+
+.lists a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.educ h1 {
+    margin-top: 5.5rem;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.verline {
+    border: 1px solid rgb(255, 255, 255);
+    width: 5px;
+    background: white;
+    box-shadow: 0 2px 1px 3px #ffffffb2;
+    border-radius: 1rem;
+    height: 100rem;
+    margin: 9rem 59rem;
+}
