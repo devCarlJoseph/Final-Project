@@ -76,6 +76,10 @@ header {
     text-align: center;
 }
 
+.lists a:hover {
+    color: #64c2f5f8;
+}
+
 .main-one {
     display: flex;
     flex-direction: row-reverse;
